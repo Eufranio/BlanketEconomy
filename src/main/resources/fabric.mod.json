@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "blanketeconomy",
+  "version": "${version}",
+  "name": "BlanketEconomy",
+  "description": "BlanketEconomy is a flexible and customizable economy mod for Minecraft, providing players and server admins with powerful tools to manage in-game currencies. ",
+  "authors": [
+    "Krripe"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Eufranio/BlanketEconomy",
+    "sources": "https://github.com/Eufranio/BlanketEconomy"
+  },
+  "license": "CC0-1.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "org.blanketeconomy.Blanketeconomy"
+      }
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*",
+    "fabric-language-kotlin": ">=1.12.1+kotlin.2.0.20"
+  }
+}
